@@ -1,0 +1,13 @@
+config.tx_extbase {
+	persistence {
+		classes {
+			SJBR\StaticInfoTables\Domain\Model\Country {
+				mapping {
+					columns {
+						cn_short_zh.mapOnProperty = shortNameZh
+					}
+				}
+			}
+		}
+	}
+}
