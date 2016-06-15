@@ -1,0 +1,61 @@
+{
+  "name": "lochmueller/static_info_tables_zh",
+  "type": "typo3-cms-extension",
+  "version": "6.2.0",
+  "description": "Chinese (zh) language pack for the Static Info Tables providing localized names for countries, currencies and so on. Dev on: https://github.com/lochmueller/static_info_tables_zh",
+  "autoload": {
+    "psr-4": {
+      "HDNET\\StaticInfoTablesZh\\": "Classes/",
+      "JMBTechnologyLimited\\ICalDissect\\": "Resources/Private/Php/ICalDissect/src/JMBTechnologyLimited/ICalDissect/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "HDNET\\StaticInfoTablesZh\\Tests\\": "Tests",
+      "TYPO3\\CMS\\Core\\Tests\\": ".Build/vendor/typo3/cms/typo3/sysext/core/Tests/"
+    }
+  },
+  "keywords": [
+    "TYPO3 CMS",
+    "Static Info Tables"
+  ],
+  "authors": [
+    {
+      "name": "Tim Lochmüller",
+      "email": "webmaster@fruit-lab.de",
+      "role": "Developer",
+      "homepage": "https://github.com/lochmueller"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "typo3/cms-core": "~6.2.14|>=7.4.0,<8.2",
+    "typo3/cms": "^7.6.0"
+  },
+  "replace": {
+    "static_info_tables_zh": "self.version",
+    "typo3-ter/static_info_tables_zh": "self.version"
+  },
+  "homepage": "https://github.com/lochmueller/static_info_tables_zh",
+  "license": "GPL-2.0+",
+  "support": {
+    "issues": "https://github.com/lochmueller/static_info_tables_zh/issues"
+  },
+  "require-dev": {
+    "namelesscoder/typo3-repository-client": "1.1.x-dev",
+    "phpunit/phpunit": "~4.8.0"
+  },
+  "config": {
+    "vendor-dir": ".Build/vendor",
+    "bin-dir": ".Build/bin"
+  },
+  "extra": {
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/Web",
+      "Package": {
+        "partOfMinimalUsableSystem": true
+      }
+    }
+  }
+}
