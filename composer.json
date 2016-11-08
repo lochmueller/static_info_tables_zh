@@ -5,8 +5,7 @@
   "description": "Chinese (zh) language pack for the Static Info Tables providing localized names for countries, currencies and so on. Dev on: https://github.com/lochmueller/static_info_tables_zh",
   "autoload": {
     "psr-4": {
-      "HDNET\\StaticInfoTablesZh\\": "Classes/",
-      "JMBTechnologyLimited\\ICalDissect\\": "Resources/Private/Php/ICalDissect/src/JMBTechnologyLimited/ICalDissect/"
+      "HDNET\\StaticInfoTablesZh\\": "Classes/"
     }
   },
   "autoload-dev": {
