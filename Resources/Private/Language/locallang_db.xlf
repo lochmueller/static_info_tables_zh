@@ -6,6 +6,9 @@
 			<trans-unit id="static_countries_item.cn_short_zh" xml:space="preserve">
 				<source>Short name (ZH):</source>
 			</trans-unit>
+			<trans-unit id="static_countries_item.tr_name_zh" xml:space="preserve">
+				<source>Name (ZH):</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>
