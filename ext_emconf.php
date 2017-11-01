@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = array(
     'title'            => 'Static Info Tables (zh)',
     'description'      => 'Chinese (zh) language pack for the Static Info Tables providing localized names for countries, currencies and so on. Dev on: https://github.com/lochmueller/static_info_tables_zh',
     'category'         => 'misc',
-    'version'          => '6.2.5',
+    'version'          => '6.2.6',
     'state'            => 'stable',
     'clearcacheonload' => true,
     'author'           => 'Tim Lochmüller',
@@ -23,7 +23,7 @@ $EM_CONF[$_EXTKEY] = array(
     'constraints'      => array(
         'depends' => array(
             'typo3'              => '6.2.0-8.7.99',
-            'static_info_tables' => '6.2.0-0.0.0',
+            'static_info_tables' => '6.4.0-0.0.0',
         ),
     ),
 );
