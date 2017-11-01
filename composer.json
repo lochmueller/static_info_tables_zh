@@ -1,7 +1,7 @@
 {
   "name": "lochmueller/static-info-tables-zh",
   "type": "typo3-cms-extension",
-  "version": "6.2.5",
+  "version": "6.2.6",
   "description": "Chinese (zh) language pack for the Static Info Tables providing localized names for countries, currencies and so on. Dev on: https://github.com/lochmueller/static_info_tables_zh",
   "autoload": {
     "psr-4": {
@@ -35,7 +35,7 @@
   "require": {
     "php": ">=5.5.0",
     "typo3/cms-core": "~6.2.14|~7.6.0|~8.7.0",
-    "sjbr/static-info-tables": "~6.3.9"
+    "sjbr/static-info-tables": "~6.4.3"
   },
   "replace": {
     "static_info_tables_zh": "self.version",
