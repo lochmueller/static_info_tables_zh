@@ -5,7 +5,7 @@ $additionalFields = array(
     'cn_short_en' => 'cn_short_zh'
 );
 foreach ($additionalFields as $sourceField => $destField) {
-    $additionalColumns = array();
+    $additionalColumns = [];
     $additionalColumns[$destField] = $GLOBALS['TCA']['static_countries']['columns'][$sourceField];
     $additionalColumns[$destField]['label'] = 'LLL:EXT:static_info_tables_zh/Resources/Private/Language/locallang_db.xlf:static_countries_item.' . $destField;
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('static_countries', $additionalColumns);

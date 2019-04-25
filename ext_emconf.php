@@ -22,7 +22,8 @@ $EM_CONF[$_EXTKEY] = array(
     'author_company'   => '',
     'constraints'      => array(
         'depends' => array(
-            'typo3'              => '6.2.0-8.7.99',
+            'php'                => '7.0.0-0.0.0',
+            'typo3'              => '7.6.0-9.5.99',
             'static_info_tables' => '6.4.0-0.0.0',
         ),
     ),

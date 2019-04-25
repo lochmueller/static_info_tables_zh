@@ -1,6 +1,10 @@
 <?php
+
 namespace SJBR\StaticInfoTables\Domain\Model;
 
+/**
+ * Country
+ */
 class Country extends AbstractEntity
 {
 
