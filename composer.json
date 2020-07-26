@@ -32,16 +32,15 @@
     }
   ],
   "require": {
-    "php": ">=7.0.0",
-    "typo3/cms-core": "~7.6.0|~8.7.0|~9.5.0",
-    "sjbr/static-info-tables": ">6.4.3"
+    "php": "^7.1||^7.2||^7.3||^7.4",
+    "typo3/cms-core": "^9.5||^10.4",
+    "sjbr/static-info-tables": "^6.9"
   },
   "replace": {
-    "static_info_tables_zh": "self.version",
     "typo3-ter/static-info-tables-zh": "self.version"
   },
   "homepage": "https://github.com/lochmueller/static_info_tables_zh",
-  "license": "GPL-2.0+",
+  "license": "GPL-2.0-or-later",
   "support": {
     "issues": "https://github.com/lochmueller/static_info_tables_zh/issues"
   },

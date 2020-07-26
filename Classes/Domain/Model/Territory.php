@@ -9,28 +9,23 @@ class Territory extends AbstractEntity
 {
     /**
      * Chinese name of the territory
+     *
      * @var string
      */
     protected $nameZh = '';
 
     /**
      * Sets the Chinese name of the territory
-     *
-     * @param string $nameZh
-     *
-     * @return void
      */
-    public function setNameZh($nameZh)
+    public function setNameZh(string $nameZh):void
     {
         $this->nameZh = $nameZh;
     }
 
     /**
      * Returns the Chinese name of the territory
-     *
-     * @return string
      */
-    public function getNameZh()
+    public function getNameZh():string
     {
         return $this->nameZh;
     }

@@ -1,15 +1,5 @@
 <?php
 
-/***************************************************************
- * Extension Manager/Repository config file for ext "static_info_tables_de".
- *
- * Auto generated 24-03-2015 14:46
- *
- * Manual updates:
- * Only the data in the array - everything else is removed by next
- * writing. "version" and "dependencies" must not be touched!
- ***************************************************************/
-
 $EM_CONF[$_EXTKEY] = array(
     'title'            => 'Static Info Tables (zh)',
     'description'      => 'Chinese (zh) language pack for the Static Info Tables providing localized names for countries, currencies and so on. Dev on: https://github.com/lochmueller/static_info_tables_zh',
@@ -20,11 +10,11 @@ $EM_CONF[$_EXTKEY] = array(
     'author'           => 'Tim Lochmüller',
     'author_email'     => 'tim@fruit-lab.de',
     'author_company'   => '',
-    'constraints'      => array(
+    'constraints' => array(
         'depends' => array(
-            'php'                => '7.0.0-0.0.0',
-            'typo3'              => '7.6.0-9.5.99',
-            'static_info_tables' => '6.4.0-0.0.0',
+            'php' => '7.1.0-7.4.99',
+            'typo3' => '9.5.0-10.4.99',
+            'static_info_tables' => '6.9.0-6.9.99',
         ),
     ),
 );
