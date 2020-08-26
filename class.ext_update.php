@@ -22,7 +22,7 @@ class ext_update {
 		$databaseUpdateUtility = $objectManager->get('SJBR\\StaticInfoTables\\Utility\\DatabaseUpdateUtility');
 		$databaseUpdateUtility->doUpdate('static_info_tables_zh');
 
-		$content .= '<p>' . \TYPO3\CMS\Extbase\Utility\LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables') . ' static_info_tables_zh.</p>';
+		$content .= '<p>' . \TYPO3\CMS\Extbase\Utility\LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables', ['static_info_tables_zh']) . '.</p>';
 		return $content;
 	}
 
