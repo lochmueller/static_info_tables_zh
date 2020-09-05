@@ -250,6 +250,7 @@ UPDATE static_countries SET cn_short_zh='島嶼地區' WHERE cn_iso_2='UM';
 UPDATE static_countries SET cn_short_zh='美国' WHERE cn_iso_2='US';
 UPDATE static_countries SET cn_short_zh='坦桑尼亚' WHERE cn_iso_2='TZ';
 UPDATE static_countries SET cn_short_zh='東加' WHERE cn_iso_2='TO';
+UPDATE static_countries SET cn_short_zh='科索沃' WHERE cn_iso_2='XK';
 ## static_territories
 UPDATE static_territories SET tr_name_zh='非洲' WHERE tr_iso_nr='2';
 UPDATE static_territories SET tr_name_zh='大洋洲' WHERE tr_iso_nr='9';
