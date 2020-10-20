@@ -7,17 +7,6 @@
       "HDNET\\StaticInfoTablesZh\\": "Classes/"
     }
   },
-  "autoload-dev": {
-    "psr-4": {
-      "HDNET\\StaticInfoTablesZh\\Tests\\": "Tests"
-	}
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://composer.typo3.org"
-    }
-  ],
   "keywords": [
     "TYPO3 CMS",
     "Static Info Tables"
@@ -31,7 +20,7 @@
     }
   ],
   "require": {
-    "php": "^7.1||^7.2||^7.3||^7.4",
+    "php": "^7.2||^7.3||^7.4",
     "typo3/cms-core": "^9.5||^10.4.6",
     "sjbr/static-info-tables": "^6.9"
   },
@@ -42,12 +31,6 @@
   "license": "GPL-2.0-or-later",
   "support": {
     "issues": "https://github.com/lochmueller/static_info_tables_zh/issues"
-  },
-  "require-dev": {
-    "namelesscoder/typo3-repository-client": "1.2.0",
-    "phpunit/phpunit": "~4.8.0",
-    "squizlabs/php_codesniffer": "^2.6",
-    "phpmd/phpmd": "^2.4"
   },
   "config": {
     "vendor-dir": ".Build/vendor",
