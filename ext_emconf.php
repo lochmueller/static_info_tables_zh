@@ -12,9 +12,9 @@ $EM_CONF[$_EXTKEY] = array(
     'author_company'   => '',
     'constraints' => array(
         'depends' => array(
-            'php' => '7.2.0-7.4.99',
-            'typo3' => '9.5.0-10.4.99',
-            'static_info_tables' => '6.9.0-6.9.99',
+            'php' => '7.2.0-8.1.99',
+            'typo3' => '9.5.0-11.5.99',
+            'static_info_tables' => '6.9.0-11.5.99',
         ),
     ),
 );
