@@ -12,7 +12,7 @@ class Territory extends AbstractEntity
      *
      * @var string
      */
-    protected $nameZh = '';
+    protected string $nameZh = '';
 
     /**
      * Sets the Chinese name of the territory

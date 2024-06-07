@@ -13,7 +13,7 @@ class Country extends AbstractEntity
      *
      * @var string
      */
-    protected $shortNameZh = '';
+    protected string $shortNameZh = '';
 
     /**
      * Sets the Chinese short name.
