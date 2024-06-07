@@ -20,9 +20,9 @@
     }
   ],
   "require": {
-    "php": "^7.2||^8.0",
-    "typo3/cms-core": "^9.5||^10.4.6||^11.5",
-    "sjbr/static-info-tables": "^6.9||^11.5"
+    "php": "^8.1",
+    "typo3/cms-core": "^12.4",
+    "sjbr/static-info-tables": "^12.4"
   },
   "replace": {
     "typo3-ter/static-info-tables-zh": "self.version"
@@ -34,7 +34,11 @@
   },
   "config": {
     "vendor-dir": ".Build/vendor",
-    "bin-dir": ".Build/bin"
+    "bin-dir": ".Build/bin",
+    "allow-plugins": {
+      "typo3/cms-composer-installers": true,
+      "typo3/class-alias-loader": true
+    }
   },
   "extra": {
     "typo3/cms": {
