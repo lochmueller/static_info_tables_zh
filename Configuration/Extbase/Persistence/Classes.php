@@ -15,7 +15,7 @@ return [
         'tableName' => 'static_territories',
         'properties' => [
             'nameZh' => [
-                'fieldName' => 'name_zh',
+                'fieldName' => 'tr_name_zh',
             ],
         ],
     ],
