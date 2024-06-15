@@ -2,7 +2,7 @@
 
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
-defined('TYPO3_MODE') or die();
+defined('TYPO3') || die();
 
 $additionalFields = [
     'cn_short_en' => 'cn_short_zh'

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-26T15:19:07Z" product-name="static_info_tables_zh">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:static_info_tables_zh/Resources/Private/Language/locallang_db.xlf" date="2024-06-07T13:26:07Z" product-name="static_info_tables_zh">
 		<header/>
 		<body>
 			<trans-unit id="static_countries_item.cn_short_zh" xml:space="preserve">
