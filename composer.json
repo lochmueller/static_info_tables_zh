@@ -20,9 +20,9 @@
     }
   ],
   "require": {
-    "php": "^8.1",
-    "typo3/cms-core": "^12.4",
-    "sjbr/static-info-tables": "^12.4"
+    "php": "^8.2",
+    "typo3/cms-core": "^12.4||^13.4",
+    "sjbr/static-info-tables": "^12.4||^13.4"
   },
   "replace": {
     "typo3-ter/static-info-tables-zh": "self.version"
