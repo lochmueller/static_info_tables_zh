@@ -1,11 +1,12 @@
 {
 	"name": "renolit/static-info-tables-zh",
-	"description": "Chinese (zh) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
+	"description": "Chinese (zh) language pack for the Static Info Tables providing localized names for countries and territories.",
 	"license": "GPL-2.0-or-later",
 	"type": "typo3-cms-extension",
 	"keywords": [
 		"TYPO3 CMS",
-		"Static Info Tables"
+		"Static Info Tables",
+		"Chinese"
 	],
 	"authors": [
 		{
@@ -32,9 +33,9 @@
 	},
 	"require": {
 		"php": "^8.2",
-		"sjbr/static-info-tables": "^13.4",
-		"typo3/cms-core": "^13.4",
-		"typo3/cms-extbase": "^13.4"
+		"sjbr/static-info-tables": "^14.3",
+		"typo3/cms-core": "^14.3",
+		"typo3/cms-extbase": "^14.3"
 	},
 	"require-dev": {
 		"ergebnis/composer-normalize": "^2.52"
@@ -60,9 +61,12 @@
 	},
 	"extra": {
 		"typo3/cms": {
+			"Package": {
+				"providesPackages": {}
+			},
 			"cms-package-dir": "{$vendor-dir}/typo3/cms",
 			"extension-key": "static_info_tables_zh",
-			"version": "13.4.0",
+			"version": "14.3.0",
 			"web-dir": ".Build/public"
 		}
 	},

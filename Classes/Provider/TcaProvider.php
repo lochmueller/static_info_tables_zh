@@ -31,8 +31,6 @@ class TcaProvider
             $additionalColumns[$destField]['label'] = sprintf(static::$LL, Extension::EXTENSION_KEY, $dataSetName, $destField);
             ExtensionManagementUtility::addTCAcolumns($dataSetName, $additionalColumns);
             ExtensionManagementUtility::addToAllTCAtypes($dataSetName, $destField, '', 'after:' . $sourceField);
-            // Add as search field
-            $GLOBALS['TCA'][$dataSetName]['ctrl']['searchFields'] .= ',' . $destField;
         }
     }
 }
