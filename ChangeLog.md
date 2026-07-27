@@ -5,6 +5,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 
 ### 2026-07-27  Ephraim Härer  <ephraim.haerer@renolit.com>
 - added compatibility to TYPO3 14
+- added update function to import SQL data
 
 ### 2026-07-27  Ephraim Härer  <ephraim.haerer@renolit.com>
 - cleanup, simplified TCA registration
