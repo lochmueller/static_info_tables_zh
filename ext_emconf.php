@@ -3,7 +3,7 @@
 $EM_CONF['static_info_tables_zh'] = [
     'title' => 'Static Info Tables (zh)',
     'description' => 'Chinese (zh) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
-    'version' => '13.4.0',
+    'version' => '13.4.1',
     'category' => 'misc',
     'constraints' => [
         'depends' => [

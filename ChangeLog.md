@@ -6,3 +6,4 @@ project adheres to [Semantic Versioning](https://semver.org/).
 ### 2026-07-27  Ephraim Härer  <ephraim.haerer@renolit.com>
 - cleanup, simplified TCA registration
 - added ddev config
+- added update function to import SQL data
