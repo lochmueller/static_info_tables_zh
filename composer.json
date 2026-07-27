@@ -1,50 +1,83 @@
 {
-  "name": "lochmueller/static-info-tables-zh",
-  "type": "typo3-cms-extension",
-  "description": "Chinese (zh) language pack for the Static Info Tables providing localized names for countries, currencies and so on. Dev on: https://github.com/lochmueller/static_info_tables_zh",
-  "autoload": {
-    "psr-4": {
-      "HDNET\\StaticInfoTablesZh\\": "Classes/"
-    }
-  },
-  "keywords": [
-    "TYPO3 CMS",
-    "Static Info Tables"
-  ],
-  "authors": [
-    {
-      "name": "Tim Lochmüller",
-      "email": "webmaster@fruit-lab.de",
-      "role": "Developer",
-      "homepage": "https://github.com/lochmueller"
-    }
-  ],
-  "require": {
-    "php": "^8.2",
-    "typo3/cms-core": "^12.4||^13.4",
-    "sjbr/static-info-tables": "^12.4||^13.4"
-  },
-  "replace": {
-    "typo3-ter/static-info-tables-zh": "self.version"
-  },
-  "homepage": "https://github.com/lochmueller/static_info_tables_zh",
-  "license": "GPL-2.0-or-later",
-  "support": {
-    "issues": "https://github.com/lochmueller/static_info_tables_zh/issues"
-  },
-  "config": {
-    "vendor-dir": ".Build/vendor",
-    "bin-dir": ".Build/bin",
-    "allow-plugins": {
-      "typo3/cms-composer-installers": true,
-      "typo3/class-alias-loader": true
-    }
-  },
-  "extra": {
-    "typo3/cms": {
-      "cms-package-dir": "{$vendor-dir}/typo3/cms",
-      "web-dir": ".Build/Web",
-      "extension-key": "static_info_tables_zh"
-    }
-  }
+	"name": "renolit/static-info-tables-zh",
+	"description": "Chinese (zh) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
+	"license": "GPL-2.0-or-later",
+	"type": "typo3-cms-extension",
+	"keywords": [
+		"TYPO3 CMS",
+		"Static Info Tables"
+	],
+	"authors": [
+		{
+			"name": "Tim Lochmüller",
+			"email": "webmaster@fruit-lab.de",
+			"homepage": "https://github.com/lochmueller",
+			"role": "Developer"
+		},
+		{
+			"name": "Ephraim Härer",
+			"email": "ephraim.haerer@renolit.com",
+			"role": "Developer"
+		},
+		{
+			"name": "Timo Feuerstein",
+			"role": "Developer"
+		}
+	],
+	"homepage": "https://github.com/Kephson/static-info-tables-hu",
+	"support": {
+		"email": "ephraim.haerer@renolit.com",
+		"issues": "https://github.com/Kephson/static-info-tables-hu/issues",
+		"source": "https://github.com/Kephson/static-info-tables-hu"
+	},
+	"require": {
+		"php": "^8.2",
+		"sjbr/static-info-tables": "^13.4",
+		"typo3/cms-core": "^13.4",
+		"typo3/cms-extbase": "^13.4"
+	},
+	"require-dev": {
+		"ergebnis/composer-normalize": "^2.52"
+	},
+	"replace": {
+		"lochmueller/static-info-tables-zh": "self.version",
+		"typo3-ter/static-info-tables-zh": "self.version"
+	},
+	"autoload": {
+		"psr-4": {
+			"RENOLIT\\StaticInfoTablesZh\\": "Classes/"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"ergebnis/composer-normalize": true,
+			"typo3/class-alias-loader": true,
+			"typo3/cms-composer-installers": true
+		},
+		"bin-dir": ".Build/bin",
+		"sort-packages": true,
+		"vendor-dir": ".Build/vendor"
+	},
+	"extra": {
+		"typo3/cms": {
+			"cms-package-dir": "{$vendor-dir}/typo3/cms",
+			"extension-key": "static_info_tables_zh",
+			"version": "13.4.0",
+			"web-dir": ".Build/public"
+		}
+	},
+	"scripts": {
+		"prepare-release": [
+			"@extension-create-libs",
+			"rm -rf .devbox",
+			"rm -rf Tests/",
+			"rm .gitignore",
+			"rm .scrutinizer.yml",
+			"rm disabled.travis.yml",
+			"rm -rf .ddev",
+			"rm -rf .github",
+			"rm -rf .editorconfig",
+			"rm -rf .gitattributes"
+		]
+	}
 }

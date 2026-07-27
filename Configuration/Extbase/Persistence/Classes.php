@@ -2,8 +2,11 @@
 
 declare(strict_types=1);
 
+use SJBR\StaticInfoTables\Domain\Model\Country;
+use SJBR\StaticInfoTables\Domain\Model\Territory;
+
 return [
-    \SJBR\StaticInfoTables\Domain\Model\Country::class => [
+    Country::class => [
         'tableName' => 'static_countries',
         'properties' => [
             'shortNameZh' => [
@@ -11,7 +14,7 @@ return [
             ],
         ],
     ],
-    \SJBR\StaticInfoTables\Domain\Model\Territory::class => [
+    Territory::class => [
         'tableName' => 'static_territories',
         'properties' => [
             'nameZh' => [

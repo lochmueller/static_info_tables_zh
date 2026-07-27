@@ -1,20 +1,26 @@
 <?php
 
-$EM_CONF[$_EXTKEY] = [
-    'title'            => 'Static Info Tables (zh)',
-    'description'      => 'Chinese (zh) language pack for the Static Info Tables providing localized names for countries, currencies and so on. Dev on: https://github.com/lochmueller/static_info_tables_zh',
-    'category'         => 'misc',
-    'version' => '9.0.1',
-    'state'            => 'stable',
-    'clearcacheonload' => true,
-    'author'           => 'Tim Lochmüller',
-    'author_email'     => 'tim@fruit-lab.de',
-    'author_company'   => '',
+$EM_CONF['static_info_tables_zh'] = [
+    'title' => 'Static Info Tables (zh)',
+    'description' => 'Chinese (zh) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
+    'version' => '13.4.0',
+    'category' => 'misc',
     'constraints' => [
         'depends' => [
+            'typo3' => '13.4.0-13.4.99',
             'php' => '8.2.0-8.5.99',
-            'typo3' => '12.4.0-13.4.99',
-            'static_info_tables' => '12.4.0-13.4.99',
+            'static_info_tables' => '13.4.0-13.4.99',
+        ],
+        'conflicts' => [],
+        'suggests' => [],
+    ],
+    'state' => 'stable',
+    'author' => 'Ephraim Härer',
+    'author_email' => 'ephraim.haerer@renolit.com',
+    'author_company' => 'RENOLIT SE',
+    'autoload' => [
+        'psr-4' => [
+            'RENOLIT\\StaticInfoTablesZh\\' => 'Classes',
         ],
     ],
 ];

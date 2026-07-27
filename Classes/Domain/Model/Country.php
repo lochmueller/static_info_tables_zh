@@ -18,7 +18,7 @@ class Country extends AbstractEntity
     /**
      * Sets the Chinese short name.
      */
-    public function setShortNameZh(string $shortNameZh):void
+    public function setShortNameZh(string $shortNameZh): void
     {
         $this->shortNameZh = $shortNameZh;
     }
@@ -26,7 +26,7 @@ class Country extends AbstractEntity
     /**
      * Gets the Chinese short name.
      */
-    public function getShortNameZh():string
+    public function getShortNameZh(): string
     {
         return $this->shortNameZh;
     }

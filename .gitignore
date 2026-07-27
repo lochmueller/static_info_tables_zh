@@ -1,3 +1,67 @@
-.idea/
-.Build/*
-composer.lock
+# remove PHPStorm folders
+*.idea
+.idea/*
+.vs
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# remove npm folders and config
+node_modules/
+.sass-cache/
+
+/.Build/
+/.php-cs-fixer.cache
+/.phpunit.result.cache
+/Documentation-GENERATED-temp/
+/Resources/Private/node_modules/
+/Resources/Private/package-lock.json
+/Resources/Private/yarn-error.log
+/Resources/Private/yarn.lock
+/composer.lock
+/clover.xml
+/nbproject
+/var
+/public
+/config

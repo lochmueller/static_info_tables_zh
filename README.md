@@ -1,6 +1,12 @@
-# TYPO3 extension static_info_tables_zh
+# Static Info Tables (zh)
 
-## What is does
+This extension provides simplified Chinese (zh) language pack for the Static Info Tables providing localized names for countries and territories.
 
-Use this extension to get the simplified chinese namings for countries and territories.
-It is an enhancement for the extension static_info_tables.
+Support:
+[https://github.com/Kephson/static-info-tables-zh/wiki](https://github.com/Kephson/static_info_tables_zh/issues)
+
+Bugtracker:
+[https://github.com/Kephson/static-info-tables-zh/issues](https://github.com/Kephson/static_info_tables_zh/issues)
+
+TYPO3 extension repository:
+[https://extensions.typo3.org/extension/static_info_tables_zh/](https://extensions.typo3.org/extension/static_info_tables_zh)
